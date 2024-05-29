@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000000e0;
+}
+
+.conteiner{
+    padding: 40px;
+    background-color: rgb(39, 39, 39);
+    width: 450px;
+    border-radius: 40px;
+}
+
+.conteiner h1{
+    color: #007bff;
+    font-size: larger;
+    position: relative;
+    left: 18%;
+}
+
+label strong{
+    color: #007bff;
+}
+
+#pedra,
+#papel,
+#tesoura{
+    background-color: #007bff;
+    padding: 4px;
+    color:white;
+
+}
+
+#pedra:hover,
+#papel:hover,
+#tesoura:hover{
+    background-color: #0056b3;
+    cursor: pointer;
+}
+
+#resultado{
+    margin-top: 20px;
+    font-size: 18px;
+    color: #007bff;
+    position: relative;
+    left: 25%;
+}
